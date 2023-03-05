@@ -137,7 +137,7 @@ html {
   padding: 8px 0px;
 }
 
-#line-crosspage {
+.line-crosspage {
   border-bottom: 1px solid black;
 }
 
@@ -153,22 +153,17 @@ html {
   clear: both;
 }
 
-#italic {
+.italic {
   font-style: italic;
 }
 
-#school-company {
+.school-company {
   font-weight: bold;
 }
 
 #coursework ul {
   margin: 0px;
   padding-top: 10px;
-}
-
-#coursework #rel-cw {
-  font-weight: bold;
-  padding-right: 5px;
 }
 
 #work-exp h3 {
@@ -180,7 +175,7 @@ html {
   padding: 5px 0px;
 }
 
-#job {
+.job {
   font-weight: bold;
 }
 
@@ -197,7 +192,7 @@ html {
   margin-bottom: 10px;
 }
 
-#bold {
+.bold {
   font-weight: bold;
 }
 
