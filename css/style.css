@@ -82,3 +82,32 @@
 #contact-info {
   text-align: center;
 }
+
+#edu-section h3 {
+  margin-bottom: 10px;
+}
+
+#edu-section p {
+  margin: 0px;
+  padding: 8px 0px;
+}
+
+#line-crosspage {
+  border-bottom: 1px solid black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#school {
+  font-weight: bold;
+}
