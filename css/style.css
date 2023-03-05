@@ -1,3 +1,7 @@
+#main-header {
+  margin-bottom: 20px;
+}
+
 #header-container {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7f00+20,ff961e+41,ffd3ad+72,ffffff+100 */
   background: rgb(255,127,0); /* Old browsers */
@@ -108,7 +112,12 @@
   clear: both;
 }
 
-#school {
+#italic {
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+}
+#school-company {
   font-weight: bold;
 }
 
@@ -120,4 +129,26 @@
 #coursework #rel-cw {
   font-weight: bold;
   padding-right: 5px;
+}
+
+#work-exp h3 {
+  margin-bottom: 10px;
+}
+
+#work-exp p {
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+#job {
+  font-weight: bold;
+}
+
+#work-exp ul {
+  margin: 0px 0px 8px 0px;
+  padding-top: 0px;
+}
+
+#work-exp ul li {
+  padding: 3px 0px;
 }
