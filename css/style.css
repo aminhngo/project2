@@ -153,11 +153,19 @@ html {
   clear: both;
 }
 
-.italic {
+.italic, #id {
   font-style: italic;
 }
 
-.school-company {
+#company1, #company2 {
+  font-weight: bold;
+}
+
+#school1, #school2 {
+  font-weight: bold;
+}
+
+#job1, #job2 {
   font-weight: bold;
 }
 
@@ -173,10 +181,6 @@ html {
 #work-exp p {
   margin: 0px;
   padding: 5px 0px;
-}
-
-.job {
-  font-weight: bold;
 }
 
 #work-exp ul {
