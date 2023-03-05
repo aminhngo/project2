@@ -239,6 +239,57 @@ html {
   margin: 10px;
 }
 
-#fixed-yawn {
- position: fized;
+#fixed-yawn img {
+  position: fixed;
+  width: 60px;
+  height: 80px;
+  right: 1%;
+  top: 17%;
+}
+
+#fixed-yawn img:hover {
+  width: 400px;
+  height: 530px;
+}
+
+#p3 {
+  position: fixed;
+  font-size: 11px;
+  color: darkgreen;
+  right: 0%;
+  top: 25%;
+}
+
+#p1 {
+  margin: 20px 10px 10px 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#p2 {
+  margin: 20px 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#cat-pics {
+  width: 100%;
+}
+
+#cat-pics img {
+  width: 400px;
+  height: 530px;
+  margin: 10px 0 20px 25px;
+}
+
+#video {
+  margin: 10px 0 20px 25px;
+  width: 450px;
+  height: 590px;
+}
+
+#cat-sleep {
+  width: 500px;
+  height: 350px;
+  margin: 120px 0 120px 150px;
 }
