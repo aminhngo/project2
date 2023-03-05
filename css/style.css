@@ -1,3 +1,7 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
 #main-header {
   margin-bottom: 20px;
 }
@@ -65,9 +69,46 @@
   text-decoration-thickness: 3px;
 }
 
+/*
+  index css
+*/
+
+#about-me h1 {
+  margin-left: 1%;
+}
+
+#statue {
+  padding-top: 2%;
+  width: 65%;
+  margin: 2% auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(255, 140, 0);
+}
+
+#about-me p {
+  float: left;
+  width: 61%;
+  margin: 0.5% 2%;
+}
+
+#myself {
+  width: 35%;
+  height: 35%;
+}
+
+#mphelps {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/*
+  resume css
+*/
+
 #wrapper-resume {
   width: 920px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   padding: 0 20px 30px 20px;
   background-color: #FDF5E6;
 }
@@ -113,10 +154,9 @@
 }
 
 #italic {
-  margin: 0px;
-  padding: 0px;
   font-style: italic;
 }
+
 #school-company {
   font-weight: bold;
 }
@@ -168,4 +208,37 @@
 
 #skills ul li {
   padding: 3px 0px;
+}
+
+#academic-projs {
+  margin-bottom: 220px;
+}
+
+#extra-acts {
+  margin-bottom: 130px;
+}
+
+/*
+  my pet css
+*/
+
+#cat-intro {
+  border: 1.5px solid darkgray;
+  font-family: 'Shantell Sans', cursive;
+  text-align: center;
+}
+
+#cat-intro h1{
+  color: #F5DEB3;
+  font-size: 60px;
+  margin: 10px;
+}
+
+#cat-intro p {
+  font-size: 15px;
+  margin: 10px;
+}
+
+#fixed-yawn {
+
 }
